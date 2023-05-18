@@ -1,221 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samuel Colares</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.6.4.js"
-        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/tilt.js" defer></script>
-</head>
+  </head>
 
-<body>
-    <!-- Change Mode -->
+  <body>
     <!-- Section 1 -->
     <section class="section-1">
-        <div class="bubble"></div>
-        <h1 id="section-1-title">Oi, meu nome é Samuel Colares</h1>
-        <h3 id="section-1-subtitle"></h3>
-        <button class="knowmore">Saiba Mais</button>
+      <!-- Change Mode -->
+      <div class="change">
+        <input type="checkbox" name="check" id="grande" />
+        <label for="grande" class="label">
+          <div class="bola"></div>
+        </label>
+        <div class="sunMoon">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </div>
+      </div>
+      <!-- End of Change Mode -->
+
+      <div class="bubble"></div>
+      <h1 id="section-1-title">Oi, meu nome é Samuel Colares</h1>
+      <h3 id="section-1-subtitle"></h3>
+      <button class="knowmore">Saiba Mais</button>
     </section>
     <!-- End of Section 1 -->
 
     <!-- Section 2 -->
     <section class="section-2">
-        <div class="section-2-clip"></div>
-        <h1>Sobre Mim</h1>
-        <div class="about-content">
-            <img src="img/img_profile1.png" alt="" draggable="false">
-            <div class="about-me">
-                <p>
-                    Desde que comecei a estudar programação me apaixonei por construir websites e aplicações incríveis!
-                    Sou uma pessoa
-                    trabalhadora e extremamente curiosa para aprender, capaz de me adaptar rapidamente. Além disso, sou
-                    muito sociável e posso trabalhar facilmente em equipe.
-                </p>
-                <div class="progress-bar-wrapper">
-                    <p>Minhas habilidades atualmente:</p>
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            HTML
-                            <span>80</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            CSS
-                            <span>85</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            JavaScript
-                            <span>75</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            SASS
-                            <span>58</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            TypeScript
-                            <span>65</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="progress-text">
-                            Node.JS
-                            <span>20</span>%
-                        </p>
-                        <div class="progress-percent"></div>
-                    </div>
-                </div>
-
-                <p>
-                    Também possuo outras habilidades como Excel, Adobe Photoshop e conhecimentos nos fundamentos do
-                    scrum e inteligência emocional.
-                </p>
+      <div class="section-2-clip"></div>
+      <h1>Sobre Mim</h1>
+      <div class="about-content">
+        <img src="img/img_profile1.png" alt="" draggable="false" />
+        <div class="about-me">
+          <p>
+            Desde que comecei a estudar programação me apaixonei por construir
+            websites e aplicações incríveis! Sou uma pessoa trabalhadora e
+            extremamente curiosa para aprender, capaz de me adaptar rapidamente.
+            Além disso, sou muito sociável e posso trabalhar facilmente em
+            equipe.
+          </p>
+          <div class="progress-bar-wrapper">
+            <p>Minhas habilidades atualmente:</p>
+            <div class="progress-bar">
+              <p class="progress-text">
+                HTML
+                <span>80</span>%
+              </p>
+              <div class="progress-percent"></div>
             </div>
+
+            <div class="progress-bar">
+              <p class="progress-text">
+                CSS
+                <span>85</span>%
+              </p>
+              <div class="progress-percent"></div>
+            </div>
+
+            <div class="progress-bar">
+              <p class="progress-text">
+                JavaScript
+                <span>75</span>%
+              </p>
+              <div class="progress-percent"></div>
+            </div>
+
+            <div class="progress-bar">
+              <p class="progress-text">
+                SASS
+                <span>58</span>%
+              </p>
+              <div class="progress-percent"></div>
+            </div>
+
+            <div class="progress-bar">
+              <p class="progress-text">
+                TypeScript
+                <span>65</span>%
+              </p>
+              <div class="progress-percent"></div>
+            </div>
+
+            <div class="progress-bar">
+              <p class="progress-text">
+                Node.JS
+                <span>20</span>%
+              </p>
+              <div class="progress-percent"></div>
+            </div>
+          </div>
+
+          <p>
+            Também possuo outras habilidades como Excel, Adobe Photoshop e
+            conhecimentos nos fundamentos do scrum e inteligência emocional.
+          </p>
         </div>
+      </div>
     </section>
     <!-- End of Section 2 -->
 
     <!-- Section 3 -->
     <section class="section-3">
-        <h1>Projetos</h1>
+      <h1>Projetos</h1>
 
-        <div class="project">
-            <a href="https://art-clube-tattoo.vercel.app/" data-tilt draggable="false"><img draggable="false" src="img/project-1.png" alt=""></a>
+      <div class="project">
+        <a
+          href="https://art-clube-tattoo.vercel.app/"
+          data-tilt
+          draggable="false"
+          ><img draggable="false" src="img/project-1.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">Art Clube Tattoo</h3>
-                <p class="project-description">
-                    Trabalho realizado para um estúdio de tatuagem da minha cidade, feito com as tecnologias básicas e
-                    com auxilio da biblioteca Swiper.Js, totalmente responsivo.
-                </p>
-                <div class="project-buttons">
-                    <a href="https://art-clube-tattoo.vercel.app/" class="live">Confira</a>
-                    <a href="https://github.com/samuelcolares/ArtClubeTattoo" class="code">Código</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">Art Clube Tattoo</h3>
+          <p class="project-description">
+            Trabalho realizado para um estúdio de tatuagem da minha cidade,
+            feito com as tecnologias básicas e com auxilio da biblioteca
+            Swiper.Js, totalmente responsivo.
+          </p>
+          <div class="project-buttons">
+            <a href="https://art-clube-tattoo.vercel.app/" class="live"
+              >Confira</a
+            >
+            <a
+              href="https://github.com/samuelcolares/ArtClubeTattoo"
+              class="code"
+              >Código</a
+            >
+          </div>
         </div>
-        <div class="project">
-            <a href="https://apple-ecommerce-website-samuelcolares.vercel.app/" data-tilt draggable="false"><img draggable="false" src="img/project-2.png" alt=""></a>
+      </div>
+      <div class="project">
+        <a
+          href="https://apple-ecommerce-website-samuelcolares.vercel.app/"
+          data-tilt
+          draggable="false"
+          ><img draggable="false" src="img/project-2.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">Apple E-Commerce</h3>
-                <p class="project-description">
-                    Projeto de Testes - Inspirado no site da apple e envolvendo muitos conceitos de CSS, principalmente
-                    com manipulação de perspectiva. Totalmente responsivo.
-                </p>
-                <div class="project-buttons">
-                    <a href="https://apple-ecommerce-website-samuelcolares.vercel.app/" class="live">Confira</a>
-                    <a href="https://github.com/samuelcolares/AppleEcommerceWebsite" class="code">Código</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">Apple E-Commerce</h3>
+          <p class="project-description">
+            Projeto de Testes - Inspirado no site da apple e envolvendo muitos
+            conceitos de CSS, principalmente com manipulação de perspectiva.
+            Totalmente responsivo.
+          </p>
+          <div class="project-buttons">
+            <a
+              href="https://apple-ecommerce-website-samuelcolares.vercel.app/"
+              class="live"
+              >Confira</a
+            >
+            <a
+              href="https://github.com/samuelcolares/AppleEcommerceWebsite"
+              class="code"
+              >Código</a
+            >
+          </div>
         </div>
-        <div class="project">
-            <a href="https://samuelcolares-pokemonproject.vercel.app/" data-tilt draggable="false"><img draggable="false" src="img/project-3.png" alt=""></a>
+      </div>
+      <div class="project">
+        <a
+          href="https://samuelcolares-pokemonproject.vercel.app/"
+          data-tilt
+          draggable="false"
+          ><img draggable="false" src="img/project-3.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">Pokémon</h3>
-                <p class="project-description">
-                    Projeto Pessoal - Com o uso da API do <a href="https://pokeapi.co/">PokeAPI</a> e inspirado em uma
-                    Pokédex, porém contendo muito mais do que apenas uma Pokédex, este foi o primeiro projeto pessoal
-                    aonde me dediquei a testar minhas habilidades. Em breve será reescrito e otimizado em TypeScript.
-                </p>
-                <div class="project-buttons">
-                    <a href="https://samuelcolares-pokemonproject.vercel.app/" class="live">Confira</a>
-                    <a href="https://github.com/samuelcolares/pokemonAPI" class="code">Código</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">Pokémon</h3>
+          <p class="project-description">
+            Projeto Pessoal - Com o uso da API do
+            <a href="https://pokeapi.co/">PokeAPI</a> e inspirado em uma
+            Pokédex, porém contendo muito mais do que apenas uma Pokédex, este
+            foi o primeiro projeto pessoal aonde me dediquei a testar minhas
+            habilidades. Em breve será reescrito e otimizado em TypeScript.
+          </p>
+          <div class="project-buttons">
+            <a
+              href="https://samuelcolares-pokemonproject.vercel.app/"
+              class="live"
+              >Confira</a
+            >
+            <a href="https://github.com/samuelcolares/pokemonAPI" class="code"
+              >Código</a
+            >
+          </div>
         </div>
-        <div class="project">
-            <a href="https://samueltodolist.vercel.app/" data-tilt draggable="false"><img draggable="false" src="img/project-4.png" alt=""></a>
+      </div>
+      <div class="project">
+        <a href="https://samueltodolist.vercel.app/" data-tilt draggable="false"
+          ><img draggable="false" src="img/project-4.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">Lista de Tarefas</h3>
-                <p class="project-description">
-                    Projeto de Testes - O projeto mais genérico dos dev front-end, mas muito importante para aprender a
-                    mexer com armazenamento local
-                </p>
-                <div class="project-buttons">
-                    <a href="https://samueltodolist.vercel.app/" class="live">Confira</a>
-                    <a href="https://github.com/samuelcolares/todolist" class="code">Código</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">Lista de Tarefas</h3>
+          <p class="project-description">
+            Projeto de Testes - O projeto mais genérico dos dev front-end, mas
+            muito importante para aprender a mexer com armazenamento local
+          </p>
+          <div class="project-buttons">
+            <a href="https://samueltodolist.vercel.app/" class="live"
+              >Confira</a
+            >
+            <a href="https://github.com/samuelcolares/todolist" class="code"
+              >Código</a
+            >
+          </div>
         </div>
-        <div class="project">
-            <a href="https://whine-house-samuelcolares.vercel.app/" data-tilt draggable="false"><img draggable="false" src="img/project-5.png" alt=""></a>
+      </div>
+      <div class="project">
+        <a
+          href="https://whine-house-samuelcolares.vercel.app/"
+          data-tilt
+          draggable="false"
+          ><img draggable="false" src="img/project-5.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">Wine House</h3>
-                <p class="project-description">
-                    Projeto de Testes - Um projeto diferente para simular um catálogo de uma loja de vinhos, nesse
-                    projeto o scroll é realizado na horizontal. Totalmente responsivo.
-                </p>
-                <div class="project-buttons">
-                    <a href="https://whine-house-samuelcolares.vercel.app/" class="live">Confira</a>
-                    <a href="https://github.com/samuelcolares/Whine-House" class="code">Código</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">Wine House</h3>
+          <p class="project-description">
+            Projeto de Testes - Um projeto diferente para simular um catálogo de
+            uma loja de vinhos, nesse projeto o scroll é realizado na
+            horizontal. Totalmente responsivo.
+          </p>
+          <div class="project-buttons">
+            <a href="https://whine-house-samuelcolares.vercel.app/" class="live"
+              >Confira</a
+            >
+            <a href="https://github.com/samuelcolares/Whine-House" class="code"
+              >Código</a
+            >
+          </div>
         </div>
+      </div>
 
-        <div class="project">
-            <a href="https://github.com/samuelcolares/50projetos50dias" data-tilt draggable="false"><img draggable="false" src="img/project-6.png" alt=""></a>
+      <div class="project">
+        <a
+          href="https://github.com/samuelcolares/50projetos50dias"
+          data-tilt
+          draggable="false"
+          ><img draggable="false" src="img/project-6.png" alt=""
+        /></a>
 
-            <div class="project-description-wrapper">
-                <h3 class="project-name">50 Mini-Projetos</h3>
-                <p class="project-description">
-                    Essa penca de projetos me possibilitou treinar muitos conceitos de HTML/CSS/JavaScript e
-                    principalmente a lógica de programação. Em breve vou terminar o Read.Me de todos os projetos
-                    explicando cada um deles individualmente
-                </p>
-                <div class="project-buttons">
-                    <a href="https://github.com/samuelcolares/50projetos50dias" class="live github">Confira</a>
-                </div>
-            </div>
+        <div class="project-description-wrapper">
+          <h3 class="project-name">50 Mini-Projetos</h3>
+          <p class="project-description">
+            Essa penca de projetos me possibilitou treinar muitos conceitos de
+            HTML/CSS/JavaScript e principalmente a lógica de programação. Em
+            breve vou terminar o Read.Me de todos os projetos explicando cada um
+            deles individualmente
+          </p>
+          <div class="project-buttons">
+            <a
+              href="https://github.com/samuelcolares/50projetos50dias"
+              class="live github"
+              >Confira</a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <!-- End of Section 3 -->
 
     <!-- Section 4 -->
     <section class="section-4">
-        <h1>Contato</h1>
-        <div class="contact-wrapper">
-            <p>Gostaria de trabalhar comigo? Que ótima notícia!</p>
-            <a href="mailto:samuelcolaresdeaquino@gmail.com">Email: samuelcolaresdeaquino@gmail.com</a>
-            <a href="https://web.whatsapp.com/send?phone=5585996887338">Telefone: (85) 9.9688.7338</a>
-        </div>
+      <h1>Contato</h1>
+      <div class="contact-wrapper">
+        <p>Gostaria de trabalhar comigo? Que ótima notícia!</p>
+        <a href="mailto:samuelcolaresdeaquino@gmail.com"
+          >Email: samuelcolaresdeaquino@gmail.com</a
+        >
+        <a href="https://web.whatsapp.com/send?phone=5585996887338"
+          >Telefone: (85) 9.9688.7338</a
+        >
+      </div>
     </section>
     <!-- End of Section 4 -->
     <footer class="footer">
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/samuelcolares/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/samuelcolares"><i class="fa-brands fa-github-square"></i></a>
-        </div>
-        <div class="scrollTop">
-            <i class="fa-solid fa-play"></i>
-        </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/samuelcolares/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/samuelcolares"
+          ><i class="fa-brands fa-github-square"></i
+        ></a>
+      </div>
+      <div class="scrollTop">
+        <i class="fa-solid fa-play"></i>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
