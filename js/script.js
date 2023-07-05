@@ -8,12 +8,6 @@ const progressBar = document.querySelectorAll(".progress-percent");
 window.addEventListener("scroll", () => {
   loadProjects();
   if (window.scrollY > sections[1].offsetTop - 70) {
-    setTimeout(() => {
-      progressBar.forEach((progress, idx) => {
-        progress.style.width = `${+progressNumber[idx].textContent}%`;
-        progress.style.transitionDelay = `${idx * 0.2}s`;
-      });
-    }, 500);
     aboutContent.classList.add("show");
     sectionHeaders[0].classList.add("show");
   }
