@@ -298,7 +298,7 @@ input[type="checkbox"]:checked + .label .bola {
   gap: 5rem;
   perspective: 100rem;
 }
-.about-content img {
+.about-content .profile_img {
   width: 40rem;
   object-fit: contain;
   transform: rotateY(70deg) translateX(-100rem);
@@ -326,13 +326,32 @@ input[type="checkbox"]:checked + .label .bola {
   margin-bottom: 1rem;
 }
 
-.progress-bar {
+.skills{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+}
+
+/* .skills.learning{
+  justify-content: flex-start;
+} */
+
+.skill > img{
+  width: 3.5rem;
+}
+.skill{
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+/* .progress-bar {
   width: 60rem;
   height: 3rem;
   background-color: var(--progress-bar-color);
   margin: 1.5rem 0;
   border-radius: 0.3rem;
-  /* text-shadow: 0.2rem 0.2rem 1rem #555; */
   position: relative;
 }
 
@@ -366,7 +385,7 @@ input[type="checkbox"]:checked + .label .bola {
 
 .dark .progress-percent {
   background-color: var(--main-color);
-}
+} */
 
 /* End Section 2 */
 
@@ -669,7 +688,7 @@ a:active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-  .about-content img {
+  .about-content .profile_img {
     width: 35rem;
   }
 
@@ -706,7 +725,7 @@ a:active {
 }
 
 @media screen and (max-width: 1100px) {
-  .about-content img {
+  .about-content .profile_img {
     width: 30rem;
   }
   .about-me {
